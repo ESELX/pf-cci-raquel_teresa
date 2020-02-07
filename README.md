@@ -4,4 +4,9 @@ P5JS / Skeleton mashup for students
 
 ## Notes
 
-Even tough normalise.css and skeleton.css are linked to CDN I left copy of skeleton.css in the css folder for reference purposes while building style.css;
+O nosso tema é os "Elementos de Euclides". Euclides de Alexandria foi um professor, matemático platónico e escritor grego, muitas vezes referido como o "Pai da Geometria". Além de sua principal obra, Os Elementos, Euclides também escreveu sobre perspetivas, seções cônicas, geometria esférica, teoria dos números e rigor. Ele comprovou o teorema de Pitágoras.
+
+Trabalho realizado pelas alunas:
+  Raquel Fernandes 2017244
+  Teresa Borba 2017251
+3ºano da turma J AVT

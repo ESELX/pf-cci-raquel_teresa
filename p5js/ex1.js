@@ -3,14 +3,8 @@ var a, b;
 function setup(){
 
   // createCanvas(windowWidth,windowHeight);
-createCanvas(windowWidth,windowHeight);
-
-}
-
-
-function draw() {
+  createCanvas(windowWidth ,windowHeight);
   background(220, 250, 255);
-
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
       fill(250)
@@ -114,7 +108,9 @@ function draw() {
     rect(1055, 145, 30, 140, 20);
 
 
-////////////////////////TA A DAR PROBLEMA///////////////////////////////////////////////////////////////////////////////////////
+////////////////////////botao///////////////////////////////////////////////////////////////////////////////////////
+fill(250)
+rect(20, 450, 210, 30, 10);
 
     fill(0)
     textSize(22);
@@ -148,18 +144,6 @@ function draw() {
     text('Olá,o meu nome é Euclides! ', 100, 50);
     textAlign(LEFT);
     text('E eu provei o Teorema de Pitagoras!', 100, 70);
-
-    //Balão de fala
-    fill(250)
-   rect(90, 20, 345, 55, 10, 10, 10, 1);
-
-     //texto
-    fill(87, 37, 144)
-    textSize(20);
-  textAlign(LEFT);
-  text('Olá,o meu nome é Euclides! ', 100, 50);
-    textAlign(LEFT);
-  text('E eu provei o Teorema de Pitagoras!', 100, 70);
 
 
     ///////////EUCLIDES
