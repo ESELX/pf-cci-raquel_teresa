@@ -1,0 +1,55 @@
+var a, b;
+
+function setup() {
+
+  // create canvas
+  createCanvas(710, 700);
+  background(220, 250, 255);
+  //pergaminho
+
+
+
+
+  fill(0)
+textSize(22);
+  text("E se...", 10, 370);
+
+  a = createInput();
+  a.position(130, 380);
+  a.size(50);
+  text("valor de a=", 20, 400);
+
+  b = createInput();
+  b.position(130, 410);
+  b.size(50);
+  text("valor de b=", 20, 430);
+
+  button = createButton('Calcular c');
+  button.size(210,30)
+  button.position(20, 450);
+  button.mousePressed(findc);
+
+
+  ///////////EUCLIDES
+
+
+  ////////////////////////////////////////////////////////////INTERAÇÃO
+
+  ///////////////////////////////////////Trianguloabc
+
+}
+
+function findc() {
+  c = a.value() *a.value() + b.value()* b.value();
+
+  textSize(32);
+  text("O valor de c é igual a "+c , 260, 470);
+
+
+
+  ///////////EUCLIDES
+
+  ///////////EUCLIDES
+
+
+}

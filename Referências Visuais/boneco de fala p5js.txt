@@ -1,0 +1,56 @@
+function setup() {
+  createCanvas(600, 900);
+}
+
+function draw() {
+  background(220);
+  
+  //Balão de fala
+  fill(250)
+ rect(90, 20, 325, 55, 10, 10, 10, 1);
+  
+   //texto
+  fill(87, 37, 144)
+  textSize(20);
+textAlign(LEFT);
+text('Olá,o meu é Euclides! ', 100, 50);
+  textAlign(LEFT);
+text('Eu provei o Teorema de Pitagoras!', 100, 70);
+    
+  
+  ///////////EUCLIDES
+  //camisola
+  fill(250, 30, 0)
+  ellipse(50,90,40,50)
+    //manta
+  fill(230, 227, 14)
+  ellipse(50,90,20,50)
+  
+  //cara
+  fill(244, 226, 206)
+ ellipse(50,60,40)
+  //barba
+  fill(250)
+  ellipse(50,80,20,30)
+  //nariz
+  fill(244, 226, 206)
+  ellipse(50,64,10)
+  //olho1
+  fill(250)
+  ellipse(40,60,10)
+   fill(0)
+  ellipse(40,60,3)
+  //olho2
+  fill(250)
+  ellipse(60,60,10)
+   fill(0)
+  ellipse(60,60,3)
+  //chapeu
+  fill(0,0,266)
+  ellipse(50,44,40,20)
+  
+  ///////////////INTERAÇÃO
+  
+  
+  
+}
