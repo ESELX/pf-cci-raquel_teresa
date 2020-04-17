@@ -14,6 +14,7 @@ function setup(){
    rect(0, 100, windowWidth,windowHeight);
     ////
     noStroke()
+    
        fill(150)
    rect(0, 340, 200, 200,20,20);
        fill(150)
